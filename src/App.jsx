@@ -1,9 +1,10 @@
 import "./App.css";
+import ProductList from "./components/ProductList";
 
 function App() {
   return (
     <>
-      <h2 className="font-bold">Hello Reju</h2>
+      <ProductList />
     </>
   );
 }
